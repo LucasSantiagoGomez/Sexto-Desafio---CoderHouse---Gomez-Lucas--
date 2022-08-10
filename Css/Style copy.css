@@ -1,0 +1,1400 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+                /*MENU NAV HEADER*/
+.body{
+    background-image: url(../Imagenes/markus-spiske-vrbZVyX2k4I-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;    
+}
+
+
+
+.header{
+    grid-area: header;
+}
+
+.header{   
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+}
+
+.Logo{
+    height: 75px;
+    width: 87px;
+
+} 
+
+.Titulo{
+    display: flex;
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 15px;
+    margin-right: 80px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    
+    
+}
+
+
+.nav-items{
+    display: flex;
+    padding: 12px 8px;
+    
+}
+
+.navTopLinks{
+    color: #fff;
+    list-style: none;
+    text-decoration: none;
+}
+.navTopLinks:hover{
+    color:#fff;
+
+}
+
+.navTopLinks:hover{
+    background-color: #745300;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.nav-item {
+    color: #fff;
+}
+.nav-item:hover{
+    color: #745300;
+}
+
+
+.nav-link {
+    color: #fff;
+}
+.nav-link:hover{
+    color: #fff;
+
+}
+
+.dropdown-menu{
+    background-color:#745300;
+}
+
+.dropdown-item{
+    color: #fff;
+}
+
+
+
+
+
+
+
+ 
+ .div__Buscador{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #745300;
+    padding: 25px; 
+    border-radius: 40px;
+    margin-top: 30px;
+    
+    
+ }
+ .barraBuscador{
+    height: 30px;
+    width: 500px;
+    border: none;
+    background: none;
+    outline: none;
+    
+    font-size: 2em;
+    font-weight: bold;
+    
+ }
+
+
+ .ListaMenu{
+    display: flex;
+   
+ }
+
+ .navbar-expand-lg{
+    background-color: #042D00;
+ }
+
+ 
+
+ 
+
+ 
+                   /*FIN DEL MENU NAV HEADER*/
+
+
+
+                    /*MENU NAV MID*/
+
+
+aside{
+    grid-area: aside;
+}
+
+.navMid{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    grid-template-rows: repeat(2, auto);
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    text-align: center;
+    row-gap: 50px;
+    
+  
+   align-items: center;
+}
+
+.div__Fila1{
+    animation: fadeIn;
+    animation-duration: 2s;
+    background-color: #042D00;
+    width: 400px;
+    height: 300px;
+    border-radius: 50px;
+     
+    
+    
+}
+
+
+
+.div__fila__texto{
+    text-decoration: none;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 4em;
+    
+    
+    
+    
+}
+
+.iconify{
+    display: flex;
+    color: #fff;
+    width: 157px;
+    height: 137px;
+    margin-top: 100px;
+    padding-left: 120px;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                /*****************FIN DEL MENU NAV MID***********************/
+
+
+
+                /*********************Pie de Pagina***********************/
+
+.footer{
+    grid-area:footer;
+}
+
+.Footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #042D00;
+    height: 100px;
+    width: 100%;
+    align-content: center;
+    
+
+     
+    
+}
+.Menu__Footer{
+    display: flex;
+    list-style: none;
+    width: 100%;
+    text-align: center;
+    
+      
+    
+}
+
+.Menu__Footer__ItemUno{
+    display: flex;
+    justify-content: center;
+    
+    padding: 8px 12px;
+    
+    border-radius: 30px;
+    
+}
+
+.Menu__Footer__ItemUno:hover{
+    background-color: #745300;
+    
+    transition: 0.5s;
+}
+
+.Footer__Texto{
+    color: #fff;
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.2em;
+    
+}
+
+
+
+
+.Menu__FooterDos{
+    
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-align: center;
+    
+    
+}
+
+.IconoFooter{
+    
+    height: 50px;
+    width: 50px;
+    
+}
+.IconoFooter2{
+    height: 60px;
+    width: 60px;
+    
+    
+}
+
+.IconoFooter3{
+    height: 60px;
+    width: 60px;
+    
+    
+}
+
+.Menu__Footer__ItemDos{
+    
+    padding: 8px 12px;
+    
+    border-radius: 30px;
+
+}
+.Menu__Footer__ItemDos:hover{
+    background-color: #745300;
+    
+    
+    transition: 0.5s;
+}
+                       /*********************Fin del Pie de Pagina***********************/
+
+
+
+
+
+
+           /******************FIN DE INDEX.HTML**********************/
+
+
+
+
+
+
+
+
+
+
+
+ 
+           /*****************INICIO DE TIENDA.HTML***********************/
+
+
+.bodyTienda{
+    background-image: url(../Imagenes/victoria-strukovskaya-ORzT0ITh3YM-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment: fixed;
+    width: 100%;
+    
+    
+}
+
+
+
+.TituloTienda{
+    justify-content: center;
+    background-color: #004603;
+    width: 196px;
+    height: 172px;
+    color: #fff;
+    text-align: center;
+    
+    border-radius: 30px;
+   
+    color: #fff;
+}
+
+.TituloProductos{
+    display: grid;
+    justify-content: center;
+    font: 2em sans-serif;
+    background-color: #004603;
+    width: 300px;
+    height: 50px;
+    color: #fff;
+    text-align: center;
+    border-radius: 30px;
+
+}
+
+.Enlaces{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4,auto);
+    grid-template-rows: repeat(4,auto);
+    row-gap: 150px;
+    list-style: none;
+}
+
+
+.Enlaces-Item{
+    justify-content: center;
+    background-color: #004603;
+    border-radius: 30px;
+    width: 350px;
+    height: 250px;
+    text-align: center;
+    animation: fadeIn;
+    animation-duration: 20s;
+
+}
+
+.Enlaces-Item-Texto{
+    color: #fff;
+    font-size: 2em;
+
+    text-decoration: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+           /*******************FIN DE TIENDA.HTML*****************/
+
+
+
+
+
+
+
+
+
+
+
+
+             /*************MENU DE NAVEGACION DE ENLACES********************/
+
+.navTienda{
+    display: flex;
+    justify-content: center;
+    background-color: #042D00;
+    width: 100%;
+    height: 34px;
+    margin-top: 105px ;
+    
+    border-radius: 30px; 
+}
+.nav_Tienda_Menu{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    text-align: center;
+    list-style: none;   
+}
+.nav_Tienda_Menu_Item{
+    padding: 8px 12px;
+    border-radius: 30px;
+    
+}
+.nav_Tienda_Menu_Item:hover{
+    background-color: #745300;
+    height: 30px;
+    transition: 0.5s;
+}
+
+.nav_Tienda_Menu_Texto{
+    font-size: 1em;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+.nav_Tienda_Menu_Texto:hover{
+    color:#fff;
+}
+
+
+            /*******************FIN DE MENU DE NAVEGACION DE ENLACES*******************/
+
+
+   
+
+
+
+
+
+
+
+
+                /*******************INICIO UBICACION.HTML***************/
+.bodyUbicacion{
+    background-image: url(../Imagenes/victoria-strukovskaya-ORzT0ITh3YM-unsplash.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+
+
+.tituloUbicacion{
+    background-color: #004603;
+    width: 196px;
+    height: 172px;
+    color: #fff;
+    text-align: center;
+    margin-left: 60px;
+
+}
+
+
+
+
+
+.Mapa{
+    
+    width: 880px;
+    height: 644px;
+    margin-left: 500px;
+}
+
+
+    
+
+          /********************FIN DE UBICACION.HTML************************/
+
+
+
+
+
+
+
+
+
+
+          
+
+
+
+           /***********************INICIO CONTACTO.HTML**********************/
+
+ .bodyContacto{
+    background-image: url(../Imagenes/angele-kamp-Bd4L-A5XBJM-unsplash.jpG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    
+    width: 100%;
+    
+    
+    
+ 
+ } 
+ 
+ 
+ .TituloContacto{
+    background-color: #004603;
+    width: 196px;
+    height: 172px;
+    color: #fff;
+    text-align: center;
+    margin-left: 60px;
+    border-radius: 20px;
+
+ }
+
+ 
+   
+ 
+ .article-contacto-sectionContacto{
+    display: grid;
+    grid-template-columns: repeat(2,500px);
+    grid-template-rows: repeat(2,500px);
+    
+    list-style: none;
+    text-align: center;
+    margin-left: 400px;
+    
+
+ }
+
+ .article-contacto-section-itemContacto{
+    background-color: #004603;
+    border-radius: 30px;
+    width: 400px;
+    height: 350px;
+    margin: 8px 40px;
+    margin-top: 60px;
+    
+
+ }
+
+
+  .article-contacto-section-itemContactoFila2{
+    background-color: #004603;
+    border-radius: 30px;
+    width: 400px;
+    height: 350px;
+    margin: 8px 40px;
+    margin-top: 60px;
+ }
+
+
+.contactoTexto{
+    text-decoration: none;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 40px;
+    
+}
+.IconoEmail{
+    margin-left: 25px;
+}
+
+
+
+ 
+
+
+
+
+             /***********************FIN DE CONTACTO.HTML**********************/
+
+
+
+             
+
+
+
+
+
+
+
+/***********************Media queries index.html**********************/
+             
+
+ @media screen and (min-width: 320px) {
+       
+    .navMid{
+     display: grid;
+     grid-template-columns: repeat(1, auto);
+     grid-template-rows: repeat(4, auto);   
+     
+     justify-content: center;
+     text-align: center;
+                   
+     row-gap: 50px; 
+     align-items: center;
+                    
+            
+ }
+ .nav__items{
+     display: none;
+                    
+ }
+
+  
+            
+ .div__Fila1{
+    background-color: #042D00;
+    width: 320px;
+    height: 200px;
+    border-radius: 50px;
+   }
+            
+   .div__fila__texto{
+    text-decoration: none;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+}
+            
+.iconify{
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 100px;
+    margin-top: 30px;
+    
+     
+ }
+ .div__Buscador{
+    display: flex;
+    flex-direction: initial;              
+    align-items: center;
+    background-color: #745300;
+    height: 5px;
+    border-radius: 40px;
+    padding-bottom: 10px;
+    
+    
+     
+}
+            
+ .barraBuscador{
+    display: flex;
+    height: 20px;
+    width: 200px;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 1em;
+    font-weight: bold;
+    
+    
+            
+                           
+}
+}
+            
+ 
+
+
+   @media screen and (min-width: 1200px){
+.navMid{
+    display: grid;
+    grid-template-columns: repeat(2,500px);
+    grid-template-rows: repeat(2, auto);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    row-gap: 50px;
+                                      
+}
+
+ .nav__items{
+display: flex;
+                        
+}
+
+.div__Buscador{
+    display: flex;      
+    align-items: center;
+    background-color: #745300;
+    height: 5px;
+    padding-bottom: 5px; 
+    border-radius: 40px;
+    margin-top: 30px;
+}
+              
+.barraBuscador{
+     display: flex;
+    height: 30px;
+     width: 500px;
+    border: none;
+   background: none;
+  outline: none;
+                  
+  font-size: 1em;
+font-weight: bold;
+}
+                                  
+    
+            
+    .div__Fila1{
+    background-color: #042D00;
+    width: 400px;
+    height: 300px;
+    border-radius: 50px;
+}
+            
+    .div__fila__texto{
+    text-decoration: none;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+}
+            
+ .iconify{
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    width: 300px;
+    height: 137px;
+    
+    
+}
+
+
+}
+            
+  
+            
+            
+            
+            
+                   
+                
+
+
+
+
+/**********************MEDIA QUERIES TIENDA*****************/
+
+
+
+
+@media screen and (min-width: 320px) {
+
+    .Enlaces{
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(1,auto);
+        grid-template-rows: repeat(4,auto);
+        
+        
+        list-style: none;
+    }
+    .Enlaces-Item{
+        justify-content: center;
+        background-color: #004603;
+        border-radius: 30px;
+        width: 250px;
+        height: 200px;
+        text-align: center;
+        animation: fadeIn;
+        animation-duration: 2s;
+    
+    }
+    
+
+    .navTienda{
+        display: flex;
+        justify-content: center;
+        background-color: #042D00;
+        width: 100%;
+        height: 34px;
+        margin-top: 100px;
+        border-radius: 30px;
+    }
+
+    .nav_Tienda_Menu_Texto{
+        font-size: 0.6em;
+        color: #fff;
+        text-decoration: none;
+        text-align: center;
+    }
+    
+
+    .Enlaces-Item-Texto{
+        color: #fff;
+        font-size: 1.5em;
+    
+        text-decoration: none;
+    
+    }
+    .Enlaces-Item-Texto:hover{
+        color: #fff;
+    }
+
+    .TituloTienda{
+        background-color: #004603;
+        width: 196px;
+        height: 80px;
+        color: #fff;
+        text-align: center;
+        
+        border-radius: 30px;
+        margin-top: 30px;
+       
+        color: #fff;
+    }
+    .TituloProductos{
+        display: grid;
+        justify-content: center;
+        font: 1.5em sans-serif;
+        background-color: #004603;
+        width: 100%;
+        height: 50px;
+        color: #fff;
+        text-align: center;
+        border-radius: 30px;
+    
+    }
+    .Titulo{
+        font-size: 1em;
+    }
+   
+}
+
+
+
+
+@media screen and (min-width: 1200px){
+    .Enlaces{
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(4,400px);
+        grid-template-rows: repeat(4,auto);
+        margin-bottom: 70px;
+        
+        list-style: none;
+    }
+    .Enlaces-Item{
+        justify-content: center;
+        background-color: #004603;
+        border-radius: 30px;
+        width: 350px;
+        height: 250px;
+        text-align: center;
+        animation: fadeIn;
+        animation-duration: 2s;
+    
+    }
+    
+
+    .navTienda{
+        display: flex;
+        justify-content: center;
+        background-color: #042D00;
+        width: 100%;
+        height: 34px;
+        margin-top: 95px;
+        
+        
+        border-radius: 30px; 
+    }
+    .Enlaces-Item-Texto{
+        color: #fff;
+        font-size: 2em;
+    
+        text-decoration: none;
+    
+    }
+
+    .nav_Tienda_Menu_Texto{
+        font-size: 1em;
+        color: #fff;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    .TituloTienda{
+        background-color: #004603;
+        width: 196px;
+        height: 172px;
+        color: #fff;
+        text-align: center;
+        margin-left: 10px;
+        border-radius: 30px;
+       
+        color: #fff;
+    }
+    .TituloProductos{
+        display: grid;
+        justify-content: center;
+        font: 2em sans-serif;
+        background-color: #004603;
+        width: 300px;
+        height: 50px;
+        color: #fff;
+        text-align: center;
+        border-radius: 30px;
+    
+    }
+    .Titulo{
+        font-size: 2em;
+    }
+  
+    
+
+   
+
+}
+
+
+
+
+
+
+/******************MEDIA QUERIES DE CONTACTO**********************/
+
+@media screen and (min-width: 320px) {
+
+    .article-contacto-sectionContacto{
+        display: grid;
+        grid-template-columns: repeat(1,200px);
+        grid-template-rows: repeat(2,200px);
+        list-style: none;
+        text-align: center;
+        margin-left: 100px;
+        
+    
+     }
+    
+     .article-contacto-section-itemContacto{
+        background-color: #004603;
+        border-radius: 30px;
+        width: 400px;
+        height: 150px;
+        margin: 8px 40px;
+        margin-top: 60px;
+       
+        
+        
+    
+     }
+    
+    
+      .article-contacto-section-itemContactoFila{
+        background-color: #004603;
+        border-radius: 30px;
+        width: 400px;
+        height: 150px;
+        margin: 8px 40px;
+        margin-top: 60px;
+        
+     }
+
+   .Icono{
+       padding: 25px;
+        width: 80px;
+        height: 80px;
+    }
+
+    .IconoEmail{
+        width: 80px;
+        height: 80px;
+              
+    }
+
+    .TituloContacto{
+        background-color: #004603;
+        width: 196px;
+        height: 80px;
+        color: #fff;
+        text-align: center;
+        margin-left: 60px;
+        border-radius: 20px;
+        margin-top: 10px;
+    
+     }
+
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1200px){
+    .article-contacto-sectionContacto{
+        display: grid;
+        grid-template-columns: repeat(2,500px);
+        grid-template-rows: repeat(2,500px);
+        
+        list-style: none;
+        text-align: center;
+        margin-left: 400px;
+        
+    
+     }
+    
+     .article-contacto-section-itemContacto{
+        background-color: #004603;
+        border-radius: 30px;
+        width: 400px;
+        height: 350px;
+        margin: 8px 40px;
+        margin-top: 60px;
+        
+    
+     }
+    
+    
+      .article-contacto-section-itemContactoFila2{
+        background-color: #004603;
+        border-radius: 30px;
+        width: 400px;
+        height: 350px;
+        margin: 8px 40px;
+        margin-top: 60px;
+     }
+
+     .Icono{
+        width: 250px;
+        height: 250px;
+    }
+
+    .IconoEmail{
+        width: 260px;
+        height: 250px;
+              
+    }
+
+    .TituloContacto{
+        background-color: #004603;
+        width: 196px;
+        height: 172px;
+        color: #fff;
+        text-align: center;
+        margin-left: 60px;
+        border-radius: 20px;
+    
+     }
+
+
+
+
+
+}
+
+
+/*MEDIA QUERIES COMO LLEGAR.HTML****/
+
+@media screen and (min-width: 320px){
+
+    .tituloUbicacion{
+        background-color: #004603;
+        width: 196px;
+        height: 60px;
+        margin-top: 10px;
+        border-radius: 60px;
+        color: #fff;
+        text-align: center;
+        margin-left: 60px;
+    
+    }
+    
+    
+    
+    
+    
+    .Mapa{
+        
+        width: 500px;
+        height: 500px;
+        margin-left: 100px;
+        margin-top: 10px;
+        margin-bottom: 100px;
+        border-radius: 60px;
+        
+    }
+
+}
+
+
+
+@media screen and (min-width: 1200px){
+
+
+    .tituloUbicacion{
+        background-color: #004603;
+        width: 196px;
+        height: 172px;
+        color: #fff;
+        text-align: center;
+        margin-left: 60px;
+    
+    }
+    
+    
+    
+    
+    
+    .Mapa{
+        
+        width: 880px;
+        height: 644px;
+        margin-left: 500px;
+        margin-bottom: 200px;
+    }
+
+}
+
+
+
+/************************Media queries footer*****************/
+
+@media screen and (min-width:320px) {
+    .Footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        background-color: #042D00;
+        height: 150px;
+        width: 100%;
+        align-content: center;
+        
+    
+         
+        
+    }
+    .Menu__Footer{
+        display: flex;
+       
+        list-style: none;
+        width: 100%;
+        
+        text-align: center;
+        
+          
+        
+    }
+    
+    .Menu__Footer__ItemUno{
+        display: flex;
+        justify-content: center;
+        
+        padding: 8px 8px;
+        height: 30px;
+        border-radius: 30px;
+        
+    }
+    
+    .Menu__Footer__ItemUno:hover{
+        background-color: #745300;
+        
+        transition: 0.5s;
+    }
+    
+    .Footer__Texto{
+        color: #fff;
+        text-decoration: none;
+        list-style: none;
+        font-size: 0.9em;
+        
+        
+    }
+
+    .Footer__Texto:hover{
+        color: #fff;
+
+    }
+    
+    
+    
+    
+    .Menu__FooterDos{
+        
+        display: grid;
+        grid-template-columns:repeat(1,auto);
+        grid-template-rows: repeat(1,80px);
+        list-style: none;
+        text-align: center;
+        
+        
+    }
+    
+    .Menu__Footer__ItemDos{
+        
+        padding: 8px 5px;
+        height: 60px;
+        border-radius: 30px;
+    
+    }
+    .Menu__Footer__ItemDos:hover{
+        background-color: #745300;
+        
+        transition: 0.5s;
+    }
+
+    .IconoFooter{
+    
+        height: 40px;
+        width: 40px;
+        
+    }
+    .IconoFooter2{
+        height: 40px;
+        width: 40px;
+        
+        
+    }
+    
+    .IconoFooter3{
+        height: 40px;
+        width: 40px;
+        
+        
+    }    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:1200px){
+    .Footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        background-color: #042D00;
+        height: 150px;
+        width: 100%;
+        align-content: center;
+        
+    
+         
+        
+    }
+    .Menu__Footer{
+        display: flex;
+       
+        list-style: none;
+        width: 100%;
+        
+        text-align: center;
+        
+          
+        
+    }
+    
+    .Menu__Footer__ItemUno{
+        display: flex;
+        justify-content: center;
+        
+        padding: 8px 12px;
+        height: 30px;
+        border-radius: 30px;
+        
+    }
+    
+    .Menu__Footer__ItemUno:hover{
+        background-color: #745300;
+        height: 70px;
+        transition: 0.4s;
+    }
+    
+    .Footer__Texto{
+        color: #fff;
+        text-decoration: none;
+        list-style: none;
+        font-size: 1.2em;
+        
+    }
+    
+    
+    
+    
+    .Menu__FooterDos{
+        
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        text-align: center;
+        
+        
+    }
+    
+    .Menu__Footer__ItemDos{
+        
+        padding: 8px 12px;
+        height: 60px;
+        border-radius: 30px;
+    
+    }
+    .Menu__Footer__ItemDos:hover{
+        background-color: #745300;
+        height: 100px;
+        transition: 0.5s;
+    }
+
+    .IconoFooter{
+    
+        height: 50px;
+        width: 50px;
+        
+    }
+    .IconoFooter2{
+        height: 60px;
+        width: 60px;
+        
+        
+    }
+    
+    .IconoFooter3{
+        height: 60px;
+        width: 60px;
+        
+        
+    }
+
+}
